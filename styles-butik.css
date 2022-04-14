@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.photosGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photosGrid__Photo {
+    width: 33%;
+    width: calc(33.3% - 2px);
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3px;
+}
