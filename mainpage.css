@@ -28,6 +28,7 @@
     padding: 14px 187px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Zen Antique Soft', serif;
 }
 
 
@@ -73,7 +74,7 @@
     background: #3B5998;
     color: white;
     float: right;
-    bottom: 75px;
+    bottom: 90px;
 }
 
 .fa-instagram {
@@ -81,7 +82,7 @@
     background: #55ACEE;
     color: white;
     float: right;
-    bottom: 75px;
+    bottom: 90px;
 }
 
 body {
@@ -97,9 +98,11 @@ footer {
     background-color: #C2C5B0;
     height: 25px;
     padding: 35px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .post {
     text-align: center;
     margin-bottom: 200px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
