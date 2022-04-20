@@ -12,7 +12,6 @@ h3{
     font-size: 25px;
     letter-spacing: 1px;
     margin-bottom: 0;
-    margin-t0p: 5%;
     padding: 0;
 }
 
@@ -86,6 +85,7 @@ input[type=submit]{
     border: none;
     border-radius: 20px;
     box-shadow: 10px 10px 8px #FCC133 ;
+    min-width: 150px;
 }
 
 .logopic{
