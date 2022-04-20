@@ -109,3 +109,12 @@ input[type=submit]:hover{
 p{
     padding: 20px;
 }
+
+.wrapper1 #error_message{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: red;
+    width: 90%;
+    text-align: center;
+    font-size: 10px;
+}
