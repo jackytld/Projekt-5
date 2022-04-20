@@ -1,7 +1,7 @@
 function validation(){
-    var navn = document.getElementbyId("navn").value;
-
-if(navn.length <5){
-    alert("Name must be filled out");
-    return false;
-}
+let navn= document.getElementById("navn").value;
+let email= document.getElementById("email").value;
+let number= document.getElementById("number").value;
+let subject= document.getElementById("subject").value;
+let message= document.getElementById("message").value;
+} 
