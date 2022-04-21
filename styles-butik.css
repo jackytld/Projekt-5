@@ -8,55 +8,6 @@ body {
     margin: 0;
 }
 
-/* Header */
-
-.pulvisfront {
-    width: 100%;
-    background-color: #FCC133;
-    opacity: 0.9;
-}
-
-.logo {
-    position: relative;
-    margin: 35px;
-    margin-top: -250px;
-}
-
-.topnav {
-    background-color: #C2C5B0;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -19px;
-}
-
-/* Style nav bar */
-
-.topnav a {
-    float: left;
-    color: #000000;
-    text-align: right;
-    padding: 14px 187px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Zen Antique Soft', serif;
-}
-
-/* skfit farve hover */
-
-.topnav a:hover {
-    background-color: rgb(240, 183, 109);
-    color: black;
-}
-
-/* tilføj farve til active link */
-
-.topnav a.active {
-    background-color: #8E7B50;
-    color: white;
-}
-
-
 .instagrid {
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 293px));
@@ -79,67 +30,8 @@ body {
     vertical-align: top;
 }
 
-/* Footer */
-
-footer {
-    background-color: #C2C5B0;
-    height: 100px;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 35%;
-    margin: 5px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-    background-color: #c91818;
-    transform: translateY(-5px);
-    transition: 250ms;
-}
-
-.fa-facebook {
-    position: relative;
-    background: #3B5998;
-    color: white;
-    float: right;
-    bottom: 30px;
-    width: 70px;
-    margin-right: 100px;
-}
-
-.fa-instagram {
-    position: relative;
-    background: #55ACEE;
-    color: white;
-    float: right;
-    bottom: 30px;
-    width: 70px;
-    margin-right: 20px;
-}
-
-.tekstbox1 {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-}
-
-.tekstbox2 {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    margin-left: 150px;
-    margin-top: -75px;
-}
-
-.tekstbox3 {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    margin-left: 400px;
-    margin-top: -75px;
-}
 
 h3 {
     text-align: center;
-    font-family: ;
+    font-family: 'Zen Antique Soft', serif;
 }
