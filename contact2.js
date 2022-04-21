@@ -10,7 +10,8 @@ function validation(){
     var messageV = document.getElementById('message').value;
 
     var errormsgV = document.getElementById('error_message');
-    var msgV =["Venligst skriv navn", "Venligst skriv email", "Venligst skriv telefonnr", "Venligst skriv emne", "Venligs udfyld besked"]
+    var msgV =["Venligst skriv navn", "Venligst skriv email", "Venligst skriv telefonnr", "Venligst skriv emne", "Venligs udfyld besked"];
+
 
     if(nameV.length <5 ){
         errormsgV.innerHTML = msgV[0];
@@ -40,4 +41,9 @@ function validation(){
         alert("Tak for din besked - den er nu sendt til os")
     }
 
+
+}
+
+for(let i=0; i<5; i++){
+    if (i% 2 !==0) console.log('msgV')
 }
