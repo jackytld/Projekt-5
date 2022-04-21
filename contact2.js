@@ -1,11 +1,21 @@
 function validation(){
-    
-var navnV = document.getElementById('navn').value;
-var mailV = document.getElementById('mail').value;
-var telfV = document.getElementById('number').value;
-var emneV = document.getElementById('subject').value;
-var messageV = document.getElementById('message').value;
+    var nameV = document.getElementById('navn').value;
 
-alert(navnV);
+    alert(nameV);
 
+    var mailV = document.getElementById('email').value;
+
+    alert(mailV);
+
+    var phoneV = document.getElementById('number').value;
+
+    alert(phoneV);
+
+    var emneV = document.getElementById('subject').value;
+
+    alert(emneV);
+
+    var messageV = document.getElementById('message').value;
+
+    alert(messageV);
 }
