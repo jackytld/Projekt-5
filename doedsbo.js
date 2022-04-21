@@ -14,9 +14,9 @@ const hour = new Date().getHours();
 let greeting;
 
 if (hour < 18) {
-  greeting = "Butik Åben";
+  greeting = "Butikker er Åben";
 } else {
-  greeting = "Butik Lukket";
+  greeting = "Butikker er Lukket";
 }
 
 document.getElementById("butik").innerHTML = greeting;
