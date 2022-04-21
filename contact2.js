@@ -10,39 +10,34 @@ function validation(){
     var messageV = document.getElementById('message').value;
 
     var errormsgV = document.getElementById('error_message');
-    var msgV =["Venligst skriv navn0", "Venligst skriv email", "Venligst skriv telefonnr", "Venligst skriv emne", "Venligs udfyld besked"]
+    var msgV =["Venligst skriv navn", "Venligst skriv email", "Venligst skriv telefonnr", "Venligst skriv emne", "Venligs udfyld besked"]
 
     if(nameV.length <5 ){
-        msgV = [0];
-        errormsgV.innerHTML = 'msgV=[0]';
+        errormsgV.innerHTML = msgV[0];
         return false;
     }
 
     if(mailV.length <6 ){
-        msgV = [1];
-        errormsgV.innerHTML = 'Venligst skriv Mail';
+        errormsgV.innerHTML = msgV[1];
         return false;
     }
 
     if(phoneV.length <6 ){
-        msgV = [2];
-        errormsgV.innerHTML = 'Venligst skriv telefonnr';
+        errormsgV.innerHTML = msgV[2];
         return false;
     }
 
     if(emneV.length <3 ){
-        msgV = [3];
-        errormsgV.innerHTML = 'Venligst skriv Emne';
+        errormsgV.innerHTML = msgV[3];
         return false;
     }
 
     if(messageV.length <4 ){
-        msgV = [4];
-        errormsgV.innerHTML = 'Venligst skriv Besked - vi har nu modtaget den.';
+        errormsgV.innerHTML = msgV[4];
         return false;
     }
     else{
-        alert("Tak for din besked")
+        alert("Tak for din besked - den er nu sendt til os")
     }
 
 }
