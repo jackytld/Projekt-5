@@ -112,7 +112,9 @@ p{
 
 
 #error_message{
-    height: 200px;
+    height: 20px;
     width: 100%;
     text-align: center;
+    color: orangered;
+    font-weight: bold;
 }
