@@ -95,3 +95,8 @@ footer {
     margin-left: 400px;
     margin-top: -75px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
