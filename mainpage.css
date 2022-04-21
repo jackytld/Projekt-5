@@ -17,7 +17,6 @@
      justify-content: space-between;
      margin-top: -19px;
  }
- /* Style nav bar */
  
  .topnav a {
      float: left;
@@ -28,13 +27,11 @@
      font-size: 17px;
      font-family: 'Zen Antique Soft', serif;
  }
- /* skfit farve hover */
  
  .topnav a:hover {
      background-color: rgb(240, 183, 109);
      color: black;
  }
- /* tilføj farve til active link */
  
  .topnav a.active {
      background-color: #8E7B50;
