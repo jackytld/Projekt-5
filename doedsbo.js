@@ -3,7 +3,7 @@ function togglePopup(){
 }
 
 const text = ("lorem ipsum er en stor satan")
-document.getElementById("demo").innerHTML = text;
+document.getElementById("tekst").innerHTML = text;
 
 var x = 1;
 var y = 2;
