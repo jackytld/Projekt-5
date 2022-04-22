@@ -2,7 +2,7 @@ function togglePopup(){
     document.getElementById("popup-1").classList.toggle("active");
 }
 
-const text = ("lorem ipsum er en stor satan")
+const text = ("Vi har 3 butikker i indre by, Odense. Hver butik har et forskelligt udvalg af genbrug")
 document.getElementById("tekst").innerHTML = text;
 
 var x = 1;
