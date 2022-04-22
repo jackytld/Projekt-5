@@ -42,4 +42,5 @@ h3 {
     grid-template-columns: repeat(4, minmax(212px, 212px));
     justify-content: center;
     grid-gap: 28px;
+    margin-bottom: 60px;
 }
