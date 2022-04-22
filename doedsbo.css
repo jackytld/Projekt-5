@@ -54,14 +54,14 @@ h3{
     }
 }
 
-.campus{
+.butikker{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col{
+.butik-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -73,7 +73,7 @@ h3{
      -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
-.campus-col img{
+.butik-col img{
     width: 100%;
     display: block;
 }
