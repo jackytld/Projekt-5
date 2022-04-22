@@ -77,7 +77,7 @@ h3{
 }
 
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: #FCC133(226, 0, 0, 0.7);
 }
 
 .layer h3{
