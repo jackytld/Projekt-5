@@ -30,7 +30,7 @@ window.onclick = function(event) {
 const hour = new Date().getHours();
 let greeting;
 
-if (hour < 22) {
+if (hour < 17) {
     greeting = "Vi glæder os til at se jer - vi holder åben";
 } else {
     greeting = "Butikker er desværre lukket - Vi åbner igen imorgen";
