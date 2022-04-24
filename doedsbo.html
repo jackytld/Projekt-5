@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="mainpage.js"></script>
 </head>
+
 <body>
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Menu</button>
@@ -39,48 +42,35 @@
         <a href="contact2.html">Kontakt</a>
     </div>
 
-<section class="course">
-    <h1>Dødsbo</h1>
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WXXrk6DHHAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="row">
-        <div class="course-col">
-            <h3>I hjemmet</h3>
-            <p>Vi registrerer og vurderer indbo for advokater til brug for boopgørelser.
-
-                Vores vurderinger bygger på aktuelle priser blandt opkøbere og på auktioner.
-                Vi kender markedet og har et solidt netværk i branchen.</p>
+    <section class="course">
+        <h1>Dødsbo</h1>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WXXrk6DHHAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row">
+            <div class="course-col">
+                <h3>I hjemmet</h3>
+                <p>Vi registrerer og vurderer indbo for advokater til brug for boopgørelser. Vores vurderinger bygger på aktuelle priser blandt opkøbere og på auktioner. Vi kender markedet og har et solidt netværk i branchen.</p>
+            </div>
+            <div class="course-col">
+                <h3>Fremgangsmåde</h3>
+                <p>Butik Pulvis rydder boet professionelt og til aftalt tid. Ud over rydning af møbler og indbo tilbyder vi mod ekstra betaling at fjerne faste tæpper, nedtage lamper og gardiner, udtage søm og skruer af væggene m.v. Rydning kan omfatte depotrum,
+                    garager, udhuse og udendørsarealer. Vi tilbyder også rengøring. Få et gratis og uforpligtende tilbud på den samlede aftale.</p>
+            </div>
+            <div class="course-col">
+                <h3>Butikken</h3>
+                <p>Når vi rydder et dødsbo, bliver personlige dokumenter og elektroniske lagringsmedier altid destrueret eller efter aftale overdraget til bohaver. Er der effekter af stor affektionsværdi eller andet, som ønskes gemt, aftales det ved indgåelse
+                    af aftale. Tøj, briller og hjælpemidler doneres til humanitære organisationer. Affald sorterer vi efter gældende regler, inden det afleveres på genbrugsstation til genanvendelse. Efterfølgende rengøring er altid med svanemærkede produkter.</p>
+            </div>
         </div>
-        <div class="course-col">
-            <h3>Fremgangsmåde</h3>
-            <p>Butik Pulvis rydder boet professionelt og til aftalt tid.
-
-                Ud over rydning af møbler og indbo tilbyder vi mod ekstra betaling at fjerne faste tæpper, nedtage lamper og gardiner, udtage søm og skruer af væggene m.v.
-                
-                Rydning kan omfatte depotrum, garager, udhuse og udendørsarealer. 
-                
-                Vi tilbyder også rengøring.
-                
-                Få et gratis og uforpligtende tilbud på den samlede aftale.</p>
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">&times;</div>
+                <h1 id="text"></h1>
+                <p id="tekst"></p>
+            </div>
         </div>
-        <div class="course-col">
-            <h3>Butikken</h3>
-            <p>Når vi rydder et dødsbo, bliver personlige dokumenter og elektroniske lagringsmedier altid destrueret eller efter aftale overdraget til bohaver. Er der effekter af stor affektionsværdi eller andet, som ønskes gemt, aftales det ved indgåelse af aftale.
-                Tøj, briller og hjælpemidler doneres til humanitære organisationer.
-                
-                Affald sorterer vi efter gældende regler, inden det afleveres på genbrugsstation til genanvendelse.
-                Efterfølgende rengøring er altid med svanemærkede produkter.</p>
-        </div>
-    </div>
-    <div class="popup" id="popup-1">
-        <div class="overlay"></div>
-        <div class="content">
-            <div class="close-btn" onclick="togglePopup()">&times;</div>
-            <h1 id="text"></h1>
-            <p id="tekst"></p>
-        </div>
-    </div>
-    <button onclick="togglePopup()">Info om butikkerne</button>
-</section>
+        <button onclick="togglePopup()">Info om butikkerne</button>
+    </section>
 
     <section class="butikker">
         <h1>Vores butikker</h1>
@@ -128,4 +118,5 @@
         </div>
     </footer>
 </body>
+
 </html>
