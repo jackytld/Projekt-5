@@ -1,5 +1,3 @@
-console.log("Js er fungerende?");
-
 // Get the modal
 var modal = document.getElementById('myModal');
 
