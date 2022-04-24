@@ -1,3 +1,4 @@
+// Mateusz Kode
 function showDropdown() {
     console.log("showing my dropdown")
     document.getElementById("myDropdown").classList.toggle("show");
@@ -29,7 +30,7 @@ window.onclick = function(event) {
 const hour = new Date().getHours();
 let greeting;
 
-if (hour < 20) {
+if (hour < 15) {
     greeting = "Vi glæder os til at se jer - vi holder åben";
 } else {
     greeting = "Butikker er desværre lukket - Vi åbner igen imorgen";
